@@ -17,4 +17,11 @@ main = do
   -- Test the factorial function with some values
   let testValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
   putStrLn "Factorials:"
-  mapM_ (\n -> putStrLn $ "Factorial of " ++ show n ++ ": " ++ show (fromNat $ factorial $ toNat n)) testValues
+  mapM_
+    (\n ->
+       putStrLn $
+         "Factorial of " ++
+         show n ++
+         ": " ++
+         show (fromNat $ factorial $ toNat n))
+    testValues
