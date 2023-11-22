@@ -25,7 +25,7 @@ In the Coq script `factorial-verification.v`, I formalized the factorial functio
   - Subsequently, it uses induction to assume that if the function is correct for some natural number `n`, it will also be correct for `n + 1`.
   - This recursive reasoning, guided by the inductive hypothesis, ensures that the `factorial` function satisfies the expected properties defined in the specification for all possible natural numbers, providing rigorous validation of the implementation's correctness.
 
-## Haskell Extraction
+## Haskell extraction
 
 After completing the proof, the Haskell code for the factorial function is generated. The extracted Haskell code (`Factorial.hs`) includes definitions for the `Nat` type and relevant functions.
 
