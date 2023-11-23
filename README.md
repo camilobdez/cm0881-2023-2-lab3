@@ -43,3 +43,10 @@ And run it to see the results:
 ```
 ./Main
 ```
+## References
+- [Bauer, Andrej (2011). How to use CoqIDE.](https://www.youtube.com/watch?v=7sk8hPWAMSw)
+- [Bauer, Andrej (2011). A first proof with Coq.](https://www.youtube.com/watch?v=z861PoZPGqk)
+- [Bauer, Andrej (2011). Induction and recursion.](https://www.youtube.com/watch?v=fbt0TcLzrNg&list=PLDD40A96C2ED54E99&index=9)
+- [Coq web page. A short introduction to Coq.](https://coq.inria.fr/a-short-introduction-to-coq)
+- [Coq web page. Induction.](https://coq.inria.fr/tutorial/2-induction)
+- [Coq web page. Extraction.](https://coq.inria.fr/refman/addendum/extraction.html)
